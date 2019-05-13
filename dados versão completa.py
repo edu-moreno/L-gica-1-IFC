@@ -21,9 +21,9 @@ print("JOGADOR 2:",jogador2 )
 
 if jogador1>jogador2:
     print("JOGADOR 1 GANHOU!!!")
-
-if jogador1<jogador2:
+else:
+     if jogador1<jogador2:
     print("JOGADOR 2 GANHOU!!!")
 
-if jogador1=jogador2:
+else: jogador1=jogador2:
     print("EMPATE Tente de novo")
